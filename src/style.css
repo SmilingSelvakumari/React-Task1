@@ -1,0 +1,55 @@
+body {
+    background-color: rgba(128, 128, 128, 0.192);
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+}
+
+.chat {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.star {
+    position: absolute;
+    right: 2%;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+h3,
+p {
+    margin: 0;
+}
